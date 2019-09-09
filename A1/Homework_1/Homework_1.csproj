@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\raebe\Desktop\C# HW\Assignment 1\HW_1.cs" Link="HW_1.cs" />
+    <Compile Include="C:\Users\raebe\Desktop\C#\A1\HW_1.cs" Link="HW_1.cs" />
+    <Compile Include="C:\Users\raebe\Desktop\C#\Assignment 1\HW_1.cs" Link="HW_1.cs" />
+  </ItemGroup>
+
+</Project>
