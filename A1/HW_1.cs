@@ -6,9 +6,7 @@ namespace Homework_1
     {
         public static void Main(string[] args)
         {
-
             string result;
-
             do
             {
                 result = DisplayMenu();
@@ -32,7 +30,6 @@ namespace Homework_1
             Console.WriteLine("Hit [3] to run ComputePolyTwo.");
             Console.WriteLine("Hit [4] to run ConvertSeconds.");
 
-
             Console.WriteLine("");
             Console.WriteLine("Hit [5]: Exit;");
             Console.WriteLine("");
@@ -47,19 +44,15 @@ namespace Homework_1
 
             switch (exeArg.ToLower())
             {
-
                 case "1":
                     DegreesConversion();
                     return true;
-
                 case "2":
                     Polynomial(exeArg, 2);
                     return true;
-
                 case "3":
                     Polynomial(exeArg, 3);
                     return true;
-
                 case "4":
                     TimeConversion();
                     return true;
